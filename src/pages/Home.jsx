@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../style/Home.css"
 
 
 
@@ -16,12 +16,12 @@ function Home() {
             </h1>
 
             <div className="string">
-                <h1 className="greeting en">Hello World!</h1>
-                <h1 className="greeting es">¡Hola Mundo!</h1>
-                <h1 className="greeting de">Hallo Welt!</h1>
-                <h1 className="greeting it">Ciao Mondo!</h1>
+                <h1 className="greeting en">"Hello World!"</h1>
+                <h1 className="greeting es">"¡Hola Mundo!"</h1>
+                <h1 className="greeting de">"Hallo Welt!"</h1>
+                <h1 className="greeting it">"Ciao Mondo!"</h1>
             </div>
-            <h1 className="closure">");</h1>
+            <h1 className="closure">);</h1>
         </div>
     )
 }
